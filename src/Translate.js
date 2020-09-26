@@ -26,7 +26,7 @@ function getLocale(guildUID) {
     if (guildUID in localeConfig)
         return localeConfig[guildUID];
     
-    return 'en';
+    return 'es';
 }
 
 module.exports = { T , setLocale, getLocale };
