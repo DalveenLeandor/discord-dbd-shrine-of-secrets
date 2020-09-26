@@ -14,7 +14,7 @@ function T(string, guildUID) {
 }
 
 function setLocale(localeString, guildUID) {
-    if (localeString == 'en' || localeString == 'default')
+    if (localeString == 'es' || localeString == 'default')
         delete localeConfig[guildUID];
     else
         localeConfig[guildUID] = localeString;
